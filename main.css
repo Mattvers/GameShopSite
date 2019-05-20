@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --primaryColor: #f19c50;
+  --primaryColor: #3870a2;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -54,4 +54,42 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
-/* end of navbar styles */
+/* hero section styles*/
+.hero {
+  min-height: calc(100vh - 60px);
+  background: url("/images/hero-banner.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding: 2rem;
+}
+
+.banner-title {
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  margin-bottom: 3rem;
+  letter-spacing: var(--mainSpacing);
+}
+
+.banner-btn {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.banner-btn:hover {
+  background: transparent;
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+/* ending */
