@@ -13,6 +13,104 @@
           }
         }
       }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Mortal Kombat 11",
+        "price": 23.59,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-2.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Fifa 19",
+        "price": 30.2,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-3.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Days Gone",
+        "price": 29.15,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-4.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Red Dead Redemption 2",
+        "price": 41.55,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-5.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Assassins Creed: Odysey",
+        "price": 25.59,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-6.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Need For Speed World",
+        "price": 9.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-7.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Sniper Elite 4",
+        "price": 16.55,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-8.jpeg"
+            }
+          }
+        }
+      }
     }
   ]
 }
